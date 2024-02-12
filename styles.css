@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5dce8; /* Rosa pastel */
+    font-family: Arial, sans-serif;
+    color: black; /* Letras en color negro */
+}
+
+.container {
+    text-align: center;
+}
+
+.message-bubble img {
+    max-width: 100%;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    transition: transform 0.3s;
+    color: black; /* Letras en color negro */
+}
+
+button:hover {
+    transform: translateY(-5px);
+}
